@@ -117,18 +117,20 @@ def taco():
         flash("Taco form NOT valid", "warning")
     return render_template('taco.html', form=form)
 
-
+def getApp():
+    return app
+    
 if __name__ == '__main__':
     models.initialize()
     try:
         # with models.DATABASE.transaction():
         models.User.create_user(
-            email='chris.freeman.pdx@gmail.com',
-            password='password',
+            email='admin@test.com',
+            password='admin',
             admin=True)
-        print("admin 'chrisfreeman' created")
+        print("admin 'admin' created")
     except ValueError:
         admin = models.User.get(models.User.email ==
-                                'chris.freeman.pdx@gmail.com')
-        print("admin 'chrisfreeman' exist")
+                                'admin@test.com')
+        print("admin 'admin' already exists")
     app.run(debug=DEBUG, host=HOST, port=PORT)
