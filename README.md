@@ -2,6 +2,6 @@
 
 This repository has projects for the Treehouse Python track.
 
-- Diary App
+- [Diary App](https://github.com/khanmr/treehouse-python/tree/main/diary)
 - Flask REST API
 - User Authentication

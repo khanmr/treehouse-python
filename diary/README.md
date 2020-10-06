@@ -11,8 +11,8 @@ Users can:
 
 #### Pre-requisites
 
-SQLite
-Peewee
+- SQLite
+- Peewee
 
 #### Instructions
 
