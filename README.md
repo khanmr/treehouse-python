@@ -4,4 +4,4 @@ This repository has projects for the Treehouse Python track.
 
 - [Diary App](https://github.com/khanmr/treehouse-python/tree/main/diary)
 - [Flask REST API](https://github.com/khanmr/treehouse-python/tree/main/flaskrestapi)
-- [Tacocat with User Authentication Treehouse Challenge](https://github.com/khanmr/treehouse-python/tree/main/tacocat)
+- [User Authentication and Authorization Treehouse Challenge](https://github.com/khanmr/treehouse-python/tree/main/tacocat)

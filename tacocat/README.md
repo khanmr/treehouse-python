@@ -1,8 +1,8 @@
-# Tacocat Project with User Authentication
+# User Authentication and Authorization Treehouse Challenge
 
 ## Summary
 
-This was a Treehouse challenge to make an make an app so people can show off their favorite tacos. Users could sign up with a username and password. Once user is signed up, they could log in and be able to post a new taco and view a list of all the tacos that's been added by users.
+This was a Treehouse challenge to build the back-end of an app that lets people create and share their favorite tacos. Users can sign up with a username and password. Once user is signed up, they can log in and be able to post a new taco and view a list of all the tacos that other users have added.
 
 Below were the requirements for the challenge:
 
